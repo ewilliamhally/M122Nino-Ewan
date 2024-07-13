@@ -16,6 +16,8 @@ teardown() {
     rm -f $TEST_LOG_FILE
 }
  
+
+ 
 # Test für log_message
 @test "log_message schreibt die richtige Nachricht in die Log-Datei" {
     run log_message "Update von Version 1.0.0 zu Version 1.1.0"
